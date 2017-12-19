@@ -1,0 +1,24 @@
+{
+  "name": "@pomegranate/framework-logger",
+  "version": "0.0.0",
+  "description": "Logging and output factories for the Pomegranate framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test FORCE_COLOR=1 tap -R spec --cov test/unit/*.js test/integration/**/*.js",
+    "test:report": "NODE_ENV=test FORCE_COLOR=1 tap -R spec --cov --coverage-report=lcov test/unit/*.js test/integration/**/*.js",
+    "test:file": "NODE_ENV=test FORCE_COLOR=1 tap -R spec"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Pomegranate-structural"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^11.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "lodash": "^4.17.4"
+  }
+}
