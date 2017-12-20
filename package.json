@@ -1,6 +1,6 @@
 {
   "name": "@pomegranate/framework-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Logging and output factories for the Pomegranate framework.",
   "main": "index.js",
   "scripts": {
