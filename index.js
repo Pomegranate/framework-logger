@@ -15,4 +15,5 @@
 module.exports = {
   Logger: require('./lib/Logger'),
   LoggerFactory: require('./lib/LoggerFactory'),
+  LogManager: require('./lib/LogManager')
 }
